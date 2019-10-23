@@ -97,6 +97,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Begin Hero Styles */
+
+
+
+/* End Hero Styles */
+
+/*Begin Body Styles */
+
+body{
+  background-color: #12161A;
+}
+
+/* End Body Styles */
+
+
+
+p{
+  color: #FFFFFF;
+  font-family: Libre Baskerville;
+  font-size: 18px;
+}
+
+h1{
+  color: #FFFFFF;
+  font-family: Libre Baskerville;
+  font-size: 34px;
+}
+
+h2{
+  color: #FFFFFF;
+  font-family: Libre Baskerville;
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +310,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
