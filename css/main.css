@@ -106,46 +106,52 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 
+
+
 }
 
 /* End Hero Styles */
+
+.nav{
+
+}
+
+
+
 
 /*Begin Body Styles */
 
 .About{
   background-color: #12161A;
-  background-image: url('../img/AboutImage1.jpg');
-  background-position: left;
-  background-repeat: no-repeat;
-
-
 }
+
 
 .TourDates{
   background-color: #222634;
 
+
 }
 
 .Testimonials{
-background-color: #404652;
+  background-color: #404652;
 
 }
 
 p{
   color: #FFFFFF;
-  font-family: Libre Baskerville;
-  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
 }
 
 h1{
   color: #FFFFFF;
-  font-family: Libre Baskerville;
+  font-family: 'Libre Baskerville', serif;
   font-size: 34px;
 }
 
 h2{
   color: #FFFFFF;
-  font-family: Libre Baskerville;
+  font-family: 'Libre Baskerville', serif;
   font-size: 26px;
 }
 
