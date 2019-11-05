@@ -99,8 +99,8 @@ textarea {
    ========================================================================== */
 /* Begin Hero Styles */
 .Hero{
-background-image: url('../img/SkilletImage.jpg');
-width: 100%;
+background-image: url('../img/SkilletImage4.jpg');
+width: 105%;
 height: 80vh;
 background-size: cover;
 background-position: center;
@@ -115,9 +115,9 @@ herologo {
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   margin: auto;
-  position: relative;
+  position: baseline;
   top: 150px;
 }
 
@@ -152,6 +152,7 @@ p{
   color: #FFFFFF;
   font-family: 'Libre Baskerville', serif;
   font-size: 16px;
+
 }
 
 h1{
@@ -177,7 +178,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .band-hero{
@@ -199,14 +200,14 @@ margin: 0 auto;;
 }
 
 .band-content p{
-  text-align: center;
+  text-align: left;
   line-height: 1.8rem;
 }
 
 .band-image{
   width: 30%;
   height: auto;
-  margin: 2%;
+  margin: 4%;
 }
 
 .breathing_room{
