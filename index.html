@@ -27,8 +27,15 @@
 
 <section class="navbar">
 
-<div>
-<button><img src="img/mobilemenuicon.png"></button>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="Navposition"><img src="img/mobilemenuicon.png"></span>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Tour Dates">Tour Dates</a>
+  <a href="#Testimonials">Testimonials</a>
 </div>
 
 </section>
@@ -53,7 +60,7 @@
 
 <div class="band-content breathing_room">
 
-  <h1>About</h1>
+  <h1><b>About</b></h1>
   <p>Skillet is an American Christain Rock band that was first formed in 1996 in Memphis, Tennessee. The current members of this band are lead singer John Cooper, his wife Korey Cooper, guitarist Seth Morrison, and drummer Jen Ledger. The band officially received their name when John Cooper and former guitarist Ken Steorts, went to their pastors to discuss and form a band as a side project. The name “Skillet” was considered to be a joke. Both members being apart of different bands and different music styles, they decided to mix up a bunch of music styles to test out, referencing to mixing everything into a big skillet. After a month of being together, Christain record label ForeFront Records was highly interested and became the band’s record label. Throughout 1996-1997, Skillet released their second album, which would better define them as a softrock band, rather than having a post-grunge approach.</p>
 
   <p>The style of this band is explained as Christain rock, Christain metal, and alternative rock. The majority of the first album was known for its grunge approach, while their second album was mentioned for its industrial feel and symphonic elements. Cooper’s idea behind the band and the music style was to unite people socially and spiritually. Cooper also states that writing songs is about that reflect the passion of the individuals and not caring what others may say.
@@ -149,6 +156,17 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 
 </body>
 
