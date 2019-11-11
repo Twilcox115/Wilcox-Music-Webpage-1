@@ -11,10 +11,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* Hid the side scrolling on the page */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 /*
@@ -99,7 +101,7 @@ textarea {
    ========================================================================== */
 /* Begin Hero Styles */
 .Hero{
-background-image: url('../img/SkilletImage.jpg');
+background-image: url('../img/SkilletImage4.jpg');
 width: 100%;
 height: 80vh;
 background-size: cover;
@@ -115,19 +117,93 @@ herologo {
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   margin: auto;
+  top: 220px
   position: relative;
-  top: 150px;
 }
 
 /* End Hero Styles */
+
+/* The side navigation menu */
+
+.Navposition {
+    position: relative;
+    left: -45%;
+}
+
+.sidenav {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Sidebar Links */
+
+.sidebar a {
+  display: block;
+  color: #FFFFFF;
+  padding: inherit;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: #FFFFFF;
+}
+
 
 .navbar{
   width: 100%;
   background-color: #0A0A0A;
   min-height: 100px;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -152,6 +228,7 @@ p{
   color: #FFFFFF;
   font-family: 'Libre Baskerville', serif;
   font-size: 16px;
+
 }
 
 h1{
@@ -177,7 +254,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .band-hero{
@@ -196,21 +273,28 @@ margin: 0 auto;;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  text-align: center;
 }
 
 .band-content p{
-  text-align: center;
   line-height: 1.8rem;
 }
 
 .band-image{
   width: 30%;
   height: auto;
-  margin: 2%;
+  margin: 4%;
 }
 
 .breathing_room{
   margin: 5%;
+}
+
+/* added the border seperation for your tour dates */
+
+hr{
+  width: 80%;
+  border-top: 1px solid #fff;
 }
 
 
@@ -312,6 +396,50 @@ margin: 0 auto;;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   /* On screens that are 1800px wide or more */
+   @media screen and (min-width: 1800px) {
+
+   }
+
+   /* On screens that are 1400px wide or less */
+   @media screen and (max-width: 1400px) {
+
+   }
+
+   /* On screens that are 1000px wide or less */
+   @media screen and (max-width: 1000px) {
+
+   }
+
+   /* On screens that are 900px wide or less */
+   @media screen and (max-width: 900px) {
+     .Navposition {
+         left: -35%;
+     }
+
+   }
+
+   /* On screens that are 768px wide or less */
+   @media screen and (max-width: 768px) {
+
+   }
+
+   /* On screens that are 550px wide or less */
+   @media screen and (max-width: 550px) {
+
+   }
+
+   /* On screens that are 450px wide or less */
+   @media screen and (max-width: 450px) {
+
+   }
+
+   /* On screens that are 300px wide or less */
+   @media screen and (max-width: 300px) {
+
+   }
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
