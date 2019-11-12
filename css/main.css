@@ -100,14 +100,15 @@ textarea {
 /* Begin Hero Styles */
 .Hero{
 background-image: url('../img/SkilletImage4.jpg');
-width: 105%;
+width: 100%;
 height: 80vh;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: bottom;
+
 }
 
 herologo {
@@ -161,7 +162,7 @@ herologo {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 #main {
@@ -195,6 +196,12 @@ herologo {
   color: #FFFFFF;
 }
 
+.skilletcrown{
+  width: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
 
 .navbar{
   width: 100%;
@@ -203,7 +210,6 @@ herologo {
   margin: 0 auto;
   position: relative;
 }
-
 
 
 
