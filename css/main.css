@@ -179,7 +179,7 @@ hr{
 img.crown {
     width: 45px;
     align-content: center;
-    
+
 }
 
 #main {
@@ -307,6 +307,7 @@ section{
 
 .band-image{
   width: 30%;
+  max-width: 100%;
   height: auto;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -417,15 +418,6 @@ section{
    Modify as content requires.
    ========================================================================== */
 
-   /* On screens that are 1800px wide or more */
-   @media screen and (min-width: 1800px) {
-
-   }
-
-   /* On screens that are 1400px wide or less */
-   @media screen and (max-width: 1400px) {
-
-   }
 
    /* On screens that are 1000px wide or less */
    @media screen and (max-width: 1000px) {
@@ -442,11 +434,45 @@ section{
 
    /* On screens that are 768px wide or less */
    @media screen and (max-width: 768px) {
-
+      
    }
 
    /* On screens that are 550px wide or less */
    @media screen and (max-width: 550px) {
+
+     .band-hero{
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+          }
+          .band-image {
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+  .band-image img{
+    width: 200px;
+    margin: 10px;
+}
+
+  .herologo img{
+  width: 90%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+  .band-content p {
+    text-align: left;
+    line-height: 1.8rem;
+    font-size: 15px;
+
+  }
 
    }
 
