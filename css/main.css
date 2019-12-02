@@ -14,7 +14,7 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /*
@@ -314,6 +314,12 @@ section{
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-top: 6%;
+  padding: 15px;
+}
+
+.band-image img{
+  width: 280px;
+  height: auto;
 }
 
 .breathing_room{
@@ -485,13 +491,13 @@ section{
        background-color: #111;
        overflow-x: hidden;
        transition: 0.5s;
-       padding-top: 60px;
-     }
+       padding-top: 45px;
+}
 
      .sidenav a {
-       padding: 8px 8px 8px 32px;
+       padding: 6px 6px 6px 30px;
        text-decoration: none;
-       font-size: 22px;
+       font-size: 20px;
        color: #818181;
        display: block;
        transition: 0.3s;
@@ -537,6 +543,9 @@ section{
      color: #FFFFFF;
    }
 
+   #mySidenav,
+   #main{
+     width: 220px !important;
 
        .band-image {
            width: 90%;
@@ -565,6 +574,26 @@ section{
        line-height: 1.9rem;
        font-size: 17px;
  }
+
+ .breathing_room {
+    margin: 7%;
+}
+
+ .TourDates p{
+   text-align: center;
+   line-height: 1.9rem;
+   font-size: 17px;
+ }
+
+ #mySidenav,
+ #main{
+   width: 220px !important;
+ }
+
+ .band-image{
+   padding: 5px;
+ }
+
    }
 
    /* On screens that are 550px wide or less */
@@ -589,16 +618,29 @@ section{
      justify-content: center;
      align-items: baseline;
      margin: auto;
-     top: 120px;
+     top: 116px;
      position: relative;
    }
 
    .Navposition {
        left: -37%;
+
      }
 
+     .navbar {
+         width: 100%;
+         background-color: #0A0A0A;
+         min-height: 70px;
+         margin: 0 auto;
+         position: relative;
+       }
+
+.navbar img{
+  width: 40px;
+}
+
      .sidenav {
-       height: 20%;
+       height: 16%;
        width: 0;
        position: fixed;
        z-index: 1;
@@ -607,13 +649,13 @@ section{
        background-color: #111;
        overflow-x: hidden;
        transition: 0.5s;
-       padding-top: 60px;
+       padding-top: 30px;
      }
 
      .sidenav a {
-       padding: 8px 8px 8px 32px;
+       padding: 2px 2px 2px 20px;
        text-decoration: none;
-       font-size: 20px;
+       font-size: 18px;
        color: #818181;
        display: block;
        transition: 0.3s;
@@ -631,6 +673,11 @@ section{
        right: 10px;
        font-size: 35px;
        margin-left: 20px;
+     }
+
+     .sidebar a:hover:not(.active) {
+       background-color: #555;
+       color: #FFFFFF;
      }
 
      img.crown {
@@ -658,6 +705,10 @@ section{
     margin: 10px;
 }
 
+.breathing_room{
+  margin: 7%;
+}
+
   .herologo img{
   width: 90%;
   height: auto;
@@ -671,6 +722,11 @@ section{
     font-size: 15px;
 
   }
+  .TourDates p{
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 15px;
+  }
 
    }
 
@@ -683,7 +739,7 @@ section{
        justify-content: center;
        align-items: baseline;
        margin: auto;
-       top: 135px;
+       top: 115px;
        position: relative;
      }
 
